@@ -4,7 +4,7 @@ public class Gerente extends Funcionario {
 
 	// atributos:
 	private int senha;
-	
+
 	public void setSenha(int senha) {
 		this.senha = senha;
 	}
@@ -19,9 +19,8 @@ public class Gerente extends Funcionario {
 	}
 
 	// métodos:
-/*	public double getBonificacao() {
-		return this.salario;
+	// super referencia a class mãe
+	public double getBonificacao() {
+		return super.getBonificacao() + super.getSalario();
 	}
-*/
-	
 }
