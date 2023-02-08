@@ -13,4 +13,4 @@ Material de estudos práticos do Programa ONE da Oracle
 * Classe mãe é chamada de super ou base class.
 * Classe filha também é chamada de sub class. 
 * Uma classe pode ter várias filhas, mas apenas uma mãe. A partir de uma instância de uma classe filha, podemos chamar qualquer método público que tenha sido declarado na classe mãe.
-* 
+* Herança com Java > Reutilização de código > Polimorfismo
