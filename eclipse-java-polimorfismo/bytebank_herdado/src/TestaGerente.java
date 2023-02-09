@@ -2,6 +2,9 @@
 public class TestaGerente {
 
 	public static void main(String[] args) {
+		
+		Autenticavel referencia = new Gerente();
+		
 		Gerente g1 = new Gerente();
 		g1.setNome("Fulano1");
 		g1.setCpf("222333666-00");
@@ -13,8 +16,9 @@ public class TestaGerente {
 
 		g1.setSenha(4242);
 		boolean autenticou = g1.autentica(4242);
+		
 		System.out.println(autenticou);
-
+		
 		System.out.println(g1.getBonificacao());
 	}
 }

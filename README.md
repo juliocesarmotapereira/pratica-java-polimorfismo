@@ -21,4 +21,6 @@ Material de estudos práticos do Programa ONE da Oracle
 * Construtor da classe mãe pode ser chamado através do super().
 * Classes e métodos abstratos não tem relação direta com consumo de memória.
 * Classes abstratas: podem ter atributos, podem ter métodos concretos (com implementação), podem ter métodos abstratos (sem implementação) dessa forma obrigamos um filho implementar o método, não podem instanciar objetos de uma classe abstrata.
-* 
+* Interfaces: utilizada de forma para conseguir polimorfismo sem herança.
+* Conceito do Polimorfismo: capacidade de um objeto ser referenciado por vários tipos, quando uma classe extende de outra ou também quando uma classe implementa uma interface.
+* Não existe herança múltipla em Java.
