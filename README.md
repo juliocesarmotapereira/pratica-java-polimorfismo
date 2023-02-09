@@ -14,3 +14,8 @@ Material de estudos práticos do Programa ONE da Oracle
 * Classe filha também é chamada de sub class. 
 * Uma classe pode ter várias filhas, mas apenas uma mãe. A partir de uma instância de uma classe filha, podemos chamar qualquer método público que tenha sido declarado na classe mãe.
 * Herança com Java > Reutilização de código > Polimorfismo
+
+* Conceitos de herança, construtores e polimorfismo.
+* A utilização da anotação @Override: é usada para sobrescrever o método da classe mãe, indicando que o método original foi alterado.
+* Construtores não são herdados.
+* Construtor da classe mãe pode ser chamado através do super().
