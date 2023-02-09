@@ -24,3 +24,6 @@ Material de estudos práticos do Programa ONE da Oracle
 * Interfaces: utilizada de forma para conseguir polimorfismo sem herança.
 * Conceito do Polimorfismo: capacidade de um objeto ser referenciado por vários tipos, quando uma classe extende de outra ou também quando uma classe implementa uma interface.
 * Não existe herança múltipla em Java.
+
+* Herança com Java > Reutilização de código > Composição com Java
+* Herança com Java > Polimorfismo > Interfaces com Java
