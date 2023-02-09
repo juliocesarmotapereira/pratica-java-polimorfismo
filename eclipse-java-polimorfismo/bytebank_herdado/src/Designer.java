@@ -6,6 +6,6 @@ public class Designer extends Funcionario {
 	// super referencia a class mãe
 	public double getBonificacao() {
 		System.out.println("Chamando o método de bonificação do Designer");
-		return 200;
+		return 200.00;
 	}
 }

@@ -19,3 +19,6 @@ Material de estudos práticos do Programa ONE da Oracle
 * A utilização da anotação @Override: é usada para sobrescrever o método da classe mãe, indicando que o método original foi alterado.
 * Construtores não são herdados.
 * Construtor da classe mãe pode ser chamado através do super().
+* Classes e métodos abstratos não tem relação direta com consumo de memória.
+* Classes abstratas: podem ter atributos, podem ter métodos concretos (com implementação), podem ter métodos abstratos (sem implementação) dessa forma obrigamos um filho implementar o método, não podem instanciar objetos de uma classe abstrata.
+* 
